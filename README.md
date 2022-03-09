@@ -1,4 +1,4 @@
-Title :Scrambled ? (subject to change) NY slang focus
+Title :Spelling Ave (subject to change) NY slang focus
 
 Summary :I used to like playing a spelling game named wordscapes on the train going to work.I would fill out a crossword puzzle by unscrambling different words. With that inspiration , I'd like to keep my game simple and have the user just unscramble words at different levels. 
 
