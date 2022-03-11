@@ -1,0 +1,33 @@
+h1 {
+    background-color:green;
+    border : 5mm ridge;
+    height: 50px;
+    width: 300px;
+ }
+
+
+body {
+    background-image: url("images/street-bg.jpg");
+    background-position: center;
+    background-size:cover;
+    background-color: rgb(6, 6, 100);
+    text-align: left;
+    font-family: 'Gochi Hand', cursive;
+    color:white;
+}
+    
+    
+
+.flex-container {
+    font-family: 'Gochi Hand', cursive;
+    color:white;
+    display: flex;
+    gap: 5%;
+}
+
+.gameArea {
+    margin: 80px 0px 0px 0px;
+    flex: 1;
+    border: 20px;
+    
+}  
