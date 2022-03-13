@@ -1,9 +1,17 @@
-// const answer1= document.getElementById('easy');
-// const btn1= document.getElementById('btn1');
-// const out1= document.getElementById('output1');
+// Elements in DOM with variables in Javascript
 
-// function level1() {
-//     out1.innerHTML = answer1.value;
-// }
+const startEl = document.getElementById("btn-start"); 
+const countEl = document.getElementById("count")
 
-// btn1.addEventListener('click',level1);
+let count = 120;
+let myCounter = null;
+
+function handleStartClick(){
+  // console.log ("start button clicked!");
+myCounter = setInterval(function(){
+    count--; 
+    countEl.innerText = ":" + count;
+  }, 1000);
+};
+
+startEl.addEventListener('click', handleStartClick);
