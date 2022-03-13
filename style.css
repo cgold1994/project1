@@ -45,3 +45,10 @@ body {
     border: 3px solid white;
     background:linear-gradient(150deg, rgb(19, 67, 212), royalblue 60%, darkorange 60%, darkorange);
 }
+
+footer {
+    position:fixed;
+     bottom:20px;
+     left:20%;
+     width:60%
+}
