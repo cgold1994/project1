@@ -17,8 +17,15 @@ myCounter = setInterval(function(){
 startEl.addEventListener('click', handleStartClick);
 
 function stopCount(){
-      if (count == 0 ) {
+      if (count === 0 ) {
           clearInterval(myCounter);
+        }
+}
+
+
+
+
+
 
 // Declare variables for input fields
 const easyOne = document.getElementById("myText1");
@@ -36,26 +43,23 @@ const out2 = document.getElementById("word2");
 const out3 = document.getElementById("word3");
 const out4 = document.getElementById("word4");
 
-function fun1(e) {
-    e.preventDefault();
+function fun1() {
+    
     out1.innerHTML = easyOne.value;
 
 }
 
-function fun2(e) {
-    e.preventDefault();
+function fun2() {
     out2.innerHTML = mediumOne.value;
 
 }
 
-function fun3(e) {
-    e.preventDefault();
+function fun3() {
     out3.innerHTML = hardOne.value;
 
 }
 
-function fun4(e) {
-    e.preventDefault();
+function fun4() {
     out4.innerHTML = bonusOne.value;
 
 }
@@ -69,9 +73,7 @@ btn4.addEventListener('click', fun4);
 
 
 
-let words = [
-    'BRICK',
-    'TIMBS',
-    'BARCLAYS',
-    'BACONEGGNCHEESE',
-];
+
+let words = [ "BRICK", "TIMBS", "BARCLAYS", "BACONEGGNCHEESE"];
+
+console.log(words);
