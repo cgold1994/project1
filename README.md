@@ -16,7 +16,10 @@ Game Rules/User Story:
 
        -If player is unable to spell the words correctly  and beat the time then they will be declared a loser.
 
-       -reset option available
+       -reset button available
+
+
+ 
       
 
 

@@ -1,0 +1,27 @@
+<!-- Challenges :
+  
+I had trouble getting the timer to actually stop at 0 instead of going into the negatives.
+
+Hinder the amount of hints allowed but abandoned the idea.
+
+I was unable to make an alert if the users guess was wrong/right.
+
+I wanted to declare a winner or loser at the end of time but had trouble.
+
+Also wanted to add gifs for winner celebration/loser page.
+
+
+Overall, I had alot of trouble and roadbumps working on this project. Javascript is still my biggest struggle and knowing how and where to create the functions. I would like to scrap this idea and try another way to do an unscramble game in the future. -->
+
+
+
+
+Triumphs :
+
+Although I had trouble stopping it at 0, adding a proper timer was a triumph. I referenced stopInterval lesson and project0
+
+I was able to display the value from the input field onto the screen
+
+Adding the input attributes and seeing them work was a triumph.However, I learned that autocapitalize works on virtual keyboards instead of physical keyboards.
+
+Although I'm not 100% satisfied with the final product , I did enjoy changing the CSS around. Including button animations, font styling and making a "highway sign" from the properties.
