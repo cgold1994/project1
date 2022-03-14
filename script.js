@@ -16,6 +16,10 @@ myCounter = setInterval(function(){
 
 startEl.addEventListener('click', handleStartClick);
 
+function stopCount(){
+      if (count == 0 ) {
+          clearInterval(myCounter);
+
 // Declare variables for input fields
 const easyOne = document.getElementById("myText1");
 const mediumOne = document.getElementById("myText2");
@@ -57,6 +61,7 @@ function fun4(e) {
 }
 
 
+
 btn1.addEventListener('click', fun1);
 btn2.addEventListener('click', fun2);
 btn3.addEventListener('click', fun3);
@@ -64,4 +69,9 @@ btn4.addEventListener('click', fun4);
 
 
 
-
+let words = [
+    'BRICK',
+    'TIMBS',
+    'BARCLAYS',
+    'BACONEGGNCHEESE',
+];
